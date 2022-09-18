@@ -1,0 +1,15 @@
+.lead__image-wrapper {
+  margin: 0 auto;
+}
+
+@media all and (min-width: 768px) {
+  .lead__image-wrapper {
+    margin: 0;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .lead__image-wrapper {
+    margin: 0 48px;
+  }
+}

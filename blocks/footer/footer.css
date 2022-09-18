@@ -1,25 +1,26 @@
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  margin-top: 92px;
+  margin-top: 64px;
+  margin-left: 16px;
+  margin-right: 16px;
   margin-bottom: 24px;
-  margin-left: 48px;
-  margin-right: 48px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) {
   footer {
+    flex-direction: row;
     margin-top: 88px;
     margin-left: 24px;
     margin-right: 24px;
-    flex-direction: column;
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (min-width: 1024px) {
   footer {
-    margin-top: 64x;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-top: 92px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }

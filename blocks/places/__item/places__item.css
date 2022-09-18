@@ -5,6 +5,7 @@
   margin-bottom: 50px;
   margin-left: 16px;
   margin-right: 16px;
+  max-width: 984px;
 }
 
 .places__item:last-child {
@@ -14,7 +15,7 @@
 @media all and (min-width: 768px) {
   .places__item {
     column-gap: 28px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: min-content auto;
     margin-bottom: 72px;
     margin-left: 24px;
     margin-right: 24px;
