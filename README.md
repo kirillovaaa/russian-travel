@@ -8,3 +8,7 @@ Mobile-first
 Figma
 CSS Transition
 Подключаемые шрифты
+
+### Ссылка на проект
+
+[https://kirillovaaa.github.io/russian-travel/]
