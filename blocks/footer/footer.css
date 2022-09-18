@@ -1,4 +1,4 @@
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,7 +9,7 @@ footer {
 }
 
 @media all and (min-width: 768px) {
-  footer {
+  .footer {
     flex-direction: row;
     margin-top: 88px;
     margin-left: 24px;
@@ -18,7 +18,7 @@ footer {
 }
 
 @media all and (min-width: 1024px) {
-  footer {
+  .footer {
     margin-top: 92px;
     margin-left: 48px;
     margin-right: 48px;
