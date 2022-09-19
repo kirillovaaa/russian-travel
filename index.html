@@ -13,7 +13,9 @@
     <header class="header">
       <img class="header__logo" src="images/header-logo.svg" alt="Россия" />
       <div class="header__lang-links">
-        <a class="header__lang-link" href="#">Ru</a>
+        <a class="header__lang-link header__lang-link_selected_true" href="#"
+          >Ru</a
+        >
         <a class="header__lang-link" href="#">En</a>
       </div>
     </header>
@@ -47,15 +49,28 @@
           некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li class="intro__list-item"><b>Часовых поясов</b> 11</li>
           <li class="intro__list-item">
-            <b>Объектов природного наследия ЮНЕСКО</b> 12
+            <span class="intro__list-item-bold">Часовых поясов</span> 11
           </li>
           <li class="intro__list-item">
-            <b>Объектов культурного наследия ЮНЕСКО</b> 16
+            <span class="intro__list-item-bold"
+              >Объектов природного наследия ЮНЕСКО</span
+            >
+            12
           </li>
-          <li class="intro__list-item"><b>Природных заповедников</b> 105</li>
-          <li class="intro__list-item"><b>Аэропортов</b> 241</li>
+          <li class="intro__list-item">
+            <span class="intro__list-item-bold"
+              >Объектов культурного наследия ЮНЕСКО</span
+            >
+            16
+          </li>
+          <li class="intro__list-item">
+            <span class="intro__list-item-bold">Природных заповедников</span>
+            105
+          </li>
+          <li class="intro__list-item">
+            <span class="intro__list-item-bold">Аэропортов</span> 241
+          </li>
         </ul>
       </section>
 
@@ -279,11 +294,6 @@
       </section>
 
       <section class="cover">
-        <img
-          class="cover__background"
-          src="./images/cover-trains.jpg"
-          alt="До Байкала «на собаках"
-        />
         <a
           class="cover__overlay"
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
@@ -298,13 +308,13 @@
     </main>
 
     <footer class="footer">
-      <p class="footer__links">
+      <nav class="footer__links">
         <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
         <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
         <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
         <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
         <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-      </p>
+      </nav>
       <span class="footer__copyright">© 2022. Александра Кириллова</span>
     </footer>
   </body>

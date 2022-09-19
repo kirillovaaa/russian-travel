@@ -1,3 +1,12 @@
 .places__website {
   margin-top: auto;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+@media all and (min-width: 768px) {
+  .places__website {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

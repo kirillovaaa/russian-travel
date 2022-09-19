@@ -3,8 +3,6 @@
   grid-template-columns: repeat(1, 1fr);
   row-gap: 32px;
   margin-bottom: 50px;
-  margin-left: 16px;
-  margin-right: 16px;
   max-width: 984px;
 }
 
@@ -14,6 +12,7 @@
 
 @media all and (min-width: 768px) {
   .places__item {
+    row-gap: 48px;
     column-gap: 28px;
     grid-template-columns: min-content auto;
     margin-bottom: 72px;
@@ -33,7 +32,6 @@
 @media all and (min-width: 1280px) {
   .places__item {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 48px;
     column-gap: 40px;
   }
 }

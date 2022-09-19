@@ -1,10 +1,17 @@
 .places__paragraph {
   margin: 0;
   margin-bottom: 26px;
-  font-size: 18px;
-  line-height: 29px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .places__paragraph:last-child {
   margin-bottom: 0;
+}
+
+@media all and (min-width: 1024px) {
+  .places__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+  }
 }
